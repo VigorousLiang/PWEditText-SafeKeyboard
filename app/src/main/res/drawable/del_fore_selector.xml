@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下时前景图片 -->
+    <item android:drawable="@drawable/cross_clicked" android:state_pressed="true" />
+    <!-- 默认时的前景图片 -->
+    <item android:drawable="@drawable/cross" />
+
+</selector>

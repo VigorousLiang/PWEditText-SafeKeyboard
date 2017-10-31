@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SafePswText">
+        <attr name="pswLength" format="integer" />
+        <attr name="borderColor" format="color" />
+        <attr name="pswColor" format="color" />
+        <attr name="inputBorder_color" format="color" />
+        <attr name="borderShadow_color" format="color" />
+        <attr name="psw_textSize" format="dimension" />
+        <attr name="borderRadius" format="dimension" />
+        <attr name="isDrawBorderImg" format="boolean" />
+        <attr name="isShowTextPsw" format="boolean" />
+        <attr name="isShowBorderShadow" format="boolean" />
+        <attr name="borderImg" format="reference" />
+        <attr name="inputBorderImg" format="reference" />
+        <attr name="delayTime" format="integer" />
+        <attr name="clearTextPsw" format="boolean" />
+        <attr name="darkPsw" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrs="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_safe_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:text="Please fill in PIN again" />
+
+    <com.vigorous.safetykeyboard.widget.password.SafePswText
+        android:id="@+id/psw_online_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        attrs:borderRadius="0dp"
+        attrs:darkPsw="true"
+        attrs:inputBorder_color="#878787"
+        attrs:pswColor="#000000" />
+</LinearLayout>

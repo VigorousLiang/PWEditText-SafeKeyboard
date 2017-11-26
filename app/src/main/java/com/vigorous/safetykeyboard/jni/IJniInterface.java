@@ -1,6 +1,9 @@
 package com.vigorous.safetykeyboard.jni;
 
 
+/**
+ * @author Administrator
+ */
 public class IJniInterface {
 
     public static final native boolean iJNIE();

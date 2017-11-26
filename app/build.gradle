@@ -4,13 +4,13 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
     defaultConfig {
-        applicationId "com.vigorous.pwpopwindow"
+        applicationId "com.vigorous.safetykeyboard"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         ndk {
-            moduleName "uplib"
+            moduleName "securityKey"
             abiFilters "armeabi"
         }
     }

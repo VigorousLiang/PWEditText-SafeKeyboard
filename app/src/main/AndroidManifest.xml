@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vigorous.safetykeyboard">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
     <application
         android:name="com.vigorous.safetykeyboard.base.BaseApplication"
         android:allowBackup="false"

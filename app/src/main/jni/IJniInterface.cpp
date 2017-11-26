@@ -79,7 +79,7 @@ static int registerNativeMethods(JNIEnv* env, const char* className,
  * 为所有类注册本地方法
  */
 static int registerNatives(JNIEnv* env) {
-	const char* kClassName = "com/vigorous/pwpopwindow/jni/IJniInterface"; //指定要注册的类
+	const char* kClassName = "com/vigorous/safetykeyboard/jni/IJniInterface"; //指定要注册的类
 	return registerNativeMethods(env, kClassName, gMethods,
 			sizeof(gMethods) / sizeof(gMethods[0]));
 }
